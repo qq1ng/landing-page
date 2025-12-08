@@ -3585,6 +3585,19 @@ input, select, textarea {
 				#footer .copyright li a {
 					color: inherit;
 				}
+				
+				
+				/* Remove bullet points from imprint links */
+				#footer .imprint {
+					list-style: none;
+					padding: 0;
+					margin: 0;
+				}
+
+				#footer .imprint li {
+					display: inline-block;
+					margin: 0 0.75em;
+				}
 
 /* XLarge */
 
